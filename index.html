@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Project</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <!-- Stylesheets -->
+    <link href="css/destyle.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    
+    <!-- Google Font(s) -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    <!--JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    
+</head>
+<body>
+
+<div id="container">
+    
+    <div id="logo1"></div>
+    
+    <div id="header">
+        
+        <h1>Adventurous Action Role-Playing Games</h1>
+    
+    </div>
+    
+    <div id="logo2"></div>
+    
+    <div id="navigation_bar">
+        
+        <ul>
+            
+            <a href="index.html"><li>Home</li></a>
+            <a href="games.html"><li>Games</li></a>
+            <a href="blogs.html"><li>Blogs</li></a>
+            <a href="reviews.html"><li>Reviews</li></a>
+            <a href="references.html"><li>References</li></a>
+        
+        </ul>
+    
+    
+    </div>
+    
+     <div id="search">
+            
+            <!--Form used as a search bar within a webpage from Dr. Westfall and www.javascriptkit.com --> 
+            <form action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+                
+                <input name="qfront" type="text" style="width: 300px" /><input type="submit" name="search" value="Search" /> 
+                
+                
+            </form>
+            
+        </div>
+    
+    <div id="main">
+    
+            
+        <div id="login">
+        
+        <!--Login Form from JavaScript and JQuery Textbook by Jon Duckett -->
+			
+            <fieldset>
+                <legend>Login Form</legend>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" />
+                <label for="password">Password:</label>
+                <input type="password" id="pwd" name="pwd" />
+                <input type="submit" value="Login" id="submit" name="submit" onclick="success();" />
+			</fieldset>
+        </div>
+        
+        <div id="platforms">
+            
+            <img src="images/Video_Game_Platforms.webp" /> 
+        
+        
+        </div>
+        
+        
+    </div>
+    
+    <div id="logo3"></div>
+    
+   <div id="footer">
+        
+        <h2>&copy; 2019-2020 Garrett Howard</h2>
+    
+    
+    </div> 
+    
+    <div id="logo4"></div>
+
+        
+</div>   
+        
+</body>
+</html>
+
+<script src="js/utilities.js"></script>
+<script src="js/input-type.js"></script>
+<script src="js/success-alert.js" type="text/javascript"></script>
+<script src="js/search.js" type="text/javascript"></script>
+
+<!--   
+
+<video autoplay loop id="video-background" muted plays-inline>
+    <source src="/video/.mp4">
+</video>    
+
+-->
